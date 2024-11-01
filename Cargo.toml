@@ -1,0 +1,10 @@
+[package]
+name = "loudness"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ebur128 = "0.1.10"
+merde = { version = "6.2.1", features = ["json"] }
+rayon = "1.10.0"
+symphonia = { version = "0.5.4", features = ["mp3", "flac"] }
